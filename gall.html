@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSK - Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffbe7;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .navbar {
+      background-color: #f7b500;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .navbar a {
+      color: #333;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .navbar a:hover {
+      background-color: #ffd966;
+    }
+    .gallery-content {
+      padding: 2rem;
+      text-align: center;
+    }
+    .gallery-content h1 {
+      color: #f7b500;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .gallery-content p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .gallery-item .player-name {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      text-align: center;
+      padding: 0.5rem 0;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .gallery-item:hover .player-name {
+      background: rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="gall.html">Gallery</a>
+    <a href="players.html">Team</a>
+    <a href="news.html">News Update</a>
+    <a href="schedule.html">Match Schedule</a>
+  </div>
+
+  <div class="gallery-content">
+    <h1>CSK Gallery</h1>
+    <p>Explore iconic moments and the players who make Chennai Super Kings a legendary team.</p>
+    
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="msd.png" alt="MS Dhoni">
+        <div class="player-name">MS Dhoni</div>
+      </div>
+      <div class="gallery-item">
+        <img src="ruturaj.png" alt="Ruturaj Gaikwad">
+        <div class="player-name">Ruturaj Gaikwad</div>
+      </div>
+      <div class="gallery-item">
+        <img src="jadeja.png" alt="Ravindra Jadeja">
+        <div class="player-name">Ravindra Jadeja</div>
+      </div>
+      <div class="gallery-item">
+        <img src="pathirana.png" alt="Matheesha Pathirana">
+        <div class="player-name">Matheesha Pathirana</div>
+      </div>
+      <div class="gallery-item">
+        <img src="dube.png" alt="Shivam Dube">
+        <div class="player-name">Shivam Dube</div>
+      </div>
+      <div class="gallery-item">
+        <img src="cvct.jpg" alt="CSK vs GT">
+        <div class="player-name">CSK vs GT</div>
+      </div>
+      <div class="gallery-item">
+        <img src="cvkkr.jpg" alt="CSK vs KKR">
+        <div class="player-name">CSK vs KKR</div>
+      </div>
+      <div class="gallery-item">
+        <img src="cvmi.jpg" alt="CSK vs MI">
+        <div class="player-name">CSK vs MI</div>
+      </div> 
+      <div class="gallery-item">
+        <img src="cvr.jpg" alt="CSK vs RCB">
+        <div class="player-name">CSK vs RCB</div>
+      </div>
+      <div class="gallery-item">
+        <img src="cvsrh.jpg" alt="CSK vs SRH">
+        <div class="player-name">CSK vs SRH</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

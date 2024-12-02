@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FDEE00;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Container for proper alignment */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+.header {
+    background-color: #FF6600;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Main Content Section */
+.main-content {
+    padding: 3rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #FF6600;
+    margin-bottom: 1rem;
+}
+
+/* History Section */
+.history p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Achievements Section */
+.achievement-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.achievement-stats div {
+    text-align: center;
+}
+
+.achievement-stats h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.achievement-stats p {
+    font-size: 1.2rem;
+}
+
+/* Trophy Image */
+.trophy-img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 2rem;
+    border: 5px solid #FF6600;
+}
+
+/* Old Players Section */
+.old-players ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.1rem;
+}
+
+.old-players ul li {
+    margin-bottom: 0.8rem;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #FF6600;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1rem;
+}
